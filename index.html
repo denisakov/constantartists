@@ -16,9 +16,6 @@
     <!-- header -->
     <nav class="navbar navbar-expand-md ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
         </button>
         <a href="#" class="col logo">
             <img src="img/logo.png" alt="logo" class="logo__img">
@@ -104,7 +101,7 @@
                             <div class="col-item">
                                 <label for="">Artist</label>
                                 <select name="artist" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">Black Joe Lewis</option>
                                     <option value="">Explosions in the sky</option>
                                     <option value="">Foxygen</option>
@@ -125,7 +122,7 @@
                             <div class="col-item">
                                 <label for="">Status</label>
                                 <select name="status" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">Received But Not Sent</option>
                                     <option value="">Pending</option>
                                     <option value="">Confirmed</option>
@@ -155,7 +152,7 @@
                             <div class="col-item">
                                 <label for="">Budget</label>
                                 <select name="budget" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">Need</option>
                                     <option value="">Pending</option>
                                     <option value="">Approved</option>
@@ -178,13 +175,13 @@
                             <div class="col-item-grey">
                                 <label for="">Currency</label>
                                 <select name="currency" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">USD</option>
                                     <option value="">CAD</option>
                                     <option value="">GBP</option>
                                     <option value="">EUR</option>
                                     <option value="">JYN</option>
-                                    <option value="">AYD</option>
+                                    <option value="">AUD</option>
                                 </select>
                             </div>
                             <div class="col-item-grey">
@@ -207,13 +204,7 @@
                         <div class=" col-wrap">
                             <div class="col-item">
                                 <label for="">Promoter Company</label>
-                                <select name="promoter company" id="">
-                                    <option value="">Select</option>
-                                    <option value="">Offer</option>
-                                    <option value="">Pending</option>
-                                    <option value="">Confirmed</option>
-                                    <option value="">Passed</option>
-                                </select>
+                                <input type="text" name="promoterCompany">
                             </div>
                             <div class="col-item">
                                 <label for="">Promoter First</label>
@@ -232,22 +223,23 @@
                             <div class="col-item-grey">
                                 <label for="">Event Type</label>
                                 <select name="event type" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">Headline</option>
                                     <option value="">Co-bill</option>
                                     <option value="">Support</option>
                                     <option value="">Festival</option>
                                     <option value="">Private</option>
-                                    <option value="">Dj Set</option>
+                                    <option value="">DJ Set</option>
                                 </select>
                             </div>
                             <div class="col-item-grey">
                                 <label for="">Deal Type</label>
                                 <select name="deal type" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">Flat</option>
                                     <option value="">Vs</option>
                                     <option value="">Promoter profit</option>
+                                    <option value="">Flat + Bonus</option>
                                 </select>
                             </div>
                             <div class="col-item-grey">
@@ -257,7 +249,7 @@
                             <div class="col-item-grey">
                                 <label for="">Age Restrictions</label>
                                 <select name="age restrictions" id="">
-                                    <option value="">Select</option>
+                                    <option disabled selected value>Select</option>
                                     <option value="">AA</option>
                                     <option value="">16+</option>
                                     <option value="">18+</option>
@@ -348,6 +340,9 @@
                 </div>
             </div>
         </div>-->
+        <div class="right">
+            <button type='submit' class="btn btn-success btn-lg" id="submitBtn">Submit</button>
+        </div>
         <!-- content end -->
         <div style="clear: both;"></div>
     </div>
